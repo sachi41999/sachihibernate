@@ -29,19 +29,19 @@ public class App
 //        System.out.println(factory.isClosed());
         
         Student st=new Student();
-        st.setId(101);
-        st.setName("sabyasachi");
-        st.setAge(23);
-        st.setEmploybility_Status("fresher");
+        st.setId(103);
+        st.setName("supriya balmukhi");
+        st.setAge(22);
+        st.setEmploybility_Status("student");
         System.out.println(st.toString());
         
         Address ad=new Address();
-        ad.setCity("Patna");
-        ad.setStreet("near anniebesant");
-        ad.setState("bihar");
-        ad.setPin(800002);
+        ad.setCity("heydrabad");
+        ad.setStreet("near rajarahat");
+        ad.setState("westbengal");
+        ad.setPin(700123);
         ad.setAdded(new Date());
-        ad.setRoadnumber(6);
+        ad.setRoadnumber(10);
         
         FileInputStream fis=new FileInputStream("src/main/java/IMG-20200514-WA0017.jpg");
         byte[] imge=new byte[fis.available()];

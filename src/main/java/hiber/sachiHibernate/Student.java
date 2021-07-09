@@ -14,6 +14,16 @@ public class Student {
 	
 	private String employbility_Status;
 	
+	private Certificate certi;
+	
+	public Certificate getCerti() {
+		return certi;
+	}
+
+	public void setCerti(Certificate certi) {
+		this.certi = certi;
+	}
+
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
